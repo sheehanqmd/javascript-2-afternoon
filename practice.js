@@ -15,7 +15,12 @@
 */
 
 //Code here
+var me = {
+  name: 'Donna',
+  age: 48,
 
+}
+alert(me.name)
 ////////// PROBLEM 2 //////////
 
 /*
@@ -24,20 +29,31 @@
 */
 
 //Code here
+let  favoriteThings= {
+  band: "Rolling Stones",
+  food: "Ham",
+  person: "James",
+  book: "New Earth",
+  movie: "Dragon Heart",
+  holiday: "Easter"
 
+}
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
   and then another key named 'brand' with the value being your favorite brand.
 */
 
 //Code here
-
+favoriteThings.car = "Jaguar"
+favoriteThings.brand = "nike"
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
 //Code here
+favoriteThings.food = "Chicken Nuggets"
+favoriteThings.book = "Harry Potter"
 
 ////////// PROBLEM 3 //////////
 
@@ -50,12 +66,18 @@
 */
 
 //Code here
+var backPack = { };
+var item = 'firstPocket'
+backPack[item] = 'chapstick'
+backPack.color = 'red'; 
+
 
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
+alert(backPack)
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -64,6 +86,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
+console.log(backPack) 
 
 ////////// PROBLEM 4 //////////
 
@@ -86,6 +109,10 @@ var user2 = {
 
 //Code Here
 
+user2.name ="Bryan G. Smith"
+user2.email="bryan.smith@devmounta.in"
+
+
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
 
@@ -95,7 +122,15 @@ var user2 = {
   Create an empty object called methodCollection.
 */
 
+
+
 //Code Here
+
+var methodCollection = {}
+
+
+
+
 
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
@@ -103,6 +138,9 @@ var user2 = {
 */
 
 //Code Here
+methodCollection
+alert()
+
 
 /*
   Now call your alertHello and logHello methods.
